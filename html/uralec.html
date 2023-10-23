@@ -1,0 +1,1390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/font-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="../js/dropdown.js" defer></script>
+    <title>Трансферы</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="container">
+                <header class="header">
+                    <div class="header__top">
+                        <a href="index.html"><div class="header__logo">
+                            <img src="../images/logo_right.png" alt="logo" class="header__winline">
+                            <img src="../images/logo_left.webp" alt="logo" class="header__mfl">
+                        </div></a>
+                        <div class="header__network">
+                            <div class="header__social">
+                                <a href="#"><img src="../images/insta.svg" alt="" class="header__svg"></a>
+                            </div>
+                            <div class="header__social">
+                                <a href="#"><img src="../images/telegram.svg" alt="" class="header__svg"></a>
+                            </div>
+                            <div class="header__social">
+                                <a href="#"><img src="../images/tiktok.svg" alt="" class="header__svg"></a>
+                            </div>
+                        </div>
+                        <!-- <div class="header__field">
+                            <input type="text" class="header__search" placeholder="Введите текст для поиска..">
+                            <button class="header__btn">&</button>
+                        </div> -->
+                    </div>
+                    <div class="header__bottom" id="header-bar">
+                        <div class="header__transfer">
+                            <a href="cost.html" class="header__link" id="link_cost">Стоимости</a>
+                        </div>
+                        <div class="header__dropdown_transfer" id="dropdown_cost">
+                            <div href="#" class="header__extra">Список ценных игроков</div>
+                            <div class="header__parameter">
+                                <div class="header__number">
+                                    #
+                                </div>
+                                <div class="header__sportsmen">
+                                    Игрок
+                                </div>
+                                <div class="header__cost header__cost_1">
+                                    Рыночная стоимость
+                                </div>
+                                <div class="header__shift header__shift_1">
+                                    Клуб
+                                </div>
+                            </div>
+                            <div class="header__rating">
+                                <div class="header__player">
+                                    <div class="header__place">1</div>
+                                    <img src="../images/most_expensive.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Kylian Mbappé
+                                        </div>
+                                        <div class="header__position">
+                                            Центральный нап.
+                                        </div>
+                                    </div>
+                                    <div class="header__value header__value_first">
+                                        180,00 млн €
+                                    </div>
+                                    <div class="header__change header__change_first">
+                                        <img src="../images/uefa_image28.png" alt="" class="header__club">
+                                    </div>
+                                </div>
+                                <div class="header__player">
+                                    <div class="header__place">2</div>
+                                    <img src="../images/most_expensive2.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Erling Haaland
+                                        </div>
+                                        <div class="header__position">
+                                            Центральный нап.
+                                        </div>
+                                    </div>
+                                    <div class="header__value">
+                                        180,00 млн €
+                                    </div>
+                                    <div class="header__change">
+                                        <img src="../images/uefa_image30.png" alt="" class="header__club scale_small">
+                                    </div>
+                                </div>
+                                <div class="header__player">
+                                    <div class="header__place">3</div>
+                                    <img src="../images/most_expensive3.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Vinicius Junior
+                                        </div>
+                                        <div class="header__position">
+                                            Левый Вингер
+                                        </div>
+                                    </div>
+                                    <div class="header__value">
+                                        150,00 млн €
+                                    </div>
+                                    <div class="header__change">
+                                        <img src="../images/uefa_image14.png" alt="" class="header__club scale">
+                                    </div>
+                                </div>
+                                <div class="header__player">
+                                    <div class="header__place">4</div>
+                                    <img src="../images/most_expensive4.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Jude Bellingham
+                                        </div>
+                                        <div class="header__position">
+                                            Центр. полузащитник
+                                        </div>
+                                    </div>
+                                    <div class="header__value">
+                                        150,00 млн €
+                                    </div>
+                                    <div class="header__change">
+                                        <img src="../images/uefa_image14.png" alt="" class="header__club scale">
+                                    </div>
+                                </div>
+                                <div class="header__player">
+                                    <div class="header__place">5</div>
+                                    <img src="../images/most_expensive5.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Victor Osimhen
+                                        </div>
+                                        <div class="header__position">
+                                            Центральный нап.
+                                        </div>
+                                    </div>
+                                    <div class="header__value">
+                                        120,00 млн €
+                                    </div>
+                                    <div class="header__change">
+                                        <img src="../images/uefa_image13.png" alt="" class="header__club scale_small"> 
+                                    </div>
+                                </div>
+                                <div class="header__player">
+                                    <div class="header__place">6</div>
+                                    <img src="../images/most_expensive6.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Bukayo Saka
+                                        </div>
+                                        <div class="header__position">
+                                            Правый Вингер
+                                        </div>
+                                    </div>
+                                    <div class="header__value">
+                                        120,00 млн €
+                                    </div>
+                                    <div class="header__change">
+                                        <img src="../images/uefa_image12.png" alt="" class="header__club scale_small">
+                                    </div>
+                                </div>
+                                <div class="header__player">
+                                    <div class="header__place">7</div>
+                                    <img src="../images/most_expensive7.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Jamal Musiala
+                                        </div>
+                                        <div class="header__position">
+                                            Атак. полузащитник
+                                        </div>
+                                    </div>
+                                    <div class="header__value">
+                                        110,00 млн €
+                                    </div>
+                                    <div class="header__change">
+                                        <img src="../images/uefa_image8.png" alt="" class="header__club scale_small">
+                                    </div>
+                                </div>
+                                <div class="header__player">
+                                    <div class="header__place">8</div>
+                                    <img src="../images/most_expensive8.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Phil Foden
+                                        </div>
+                                        <div class="header__position">
+                                            Левый Вингер
+                                        </div>
+                                    </div>
+                                    <div class="header__value">
+                                        110,00 млн €
+                                    </div>
+                                    <div class="header__change">
+                                        <img src="../images/uefa_image30.png" alt="" class="header__club scale_small">
+                                    </div>
+                                </div>
+                                <div class="header__player">
+                                    <div class="header__place">9</div>
+                                    <img src="../images/most_expensive9.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Pedri
+                                        </div>
+                                        <div class="header__position">
+                                            Центр. полузащитник
+                                        </div>
+                                    </div>
+                                    <div class="header__value">
+                                        100,00 млн €
+                                    </div>
+                                    <div class="header__change">
+                                        <img src="../images/uefa_image34.png" alt="" class="header__club scale_small">
+                                    </div>
+                                </div>
+                                <div class="header__player">
+                                    <div class="header__place">10</div>
+                                    <img src="../images/most_expensive10.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Rodri
+                                        </div>
+                                        <div class="header__position">
+                                            Опорный полузащитник
+                                        </div>
+                                    </div>
+                                    <div class="header__value">
+                                        100,00 млн €
+                                    </div>
+                                    <div class="header__change">
+                                        <img src="../images/uefa_image30.png" alt="" class="header__club">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__transfer">
+                            <a href="transfer.html" class="header__link" id="link_transfer">Трансферы</a>
+                        </div>
+                        <div class="header__dropdown_transfer" id="dropdown_transfer">
+                            <div href="#" class="header__extra">Список топовых трансферов</div>
+                            <div class="header__parameter">
+                                <div class="header__number">
+                                    #
+                                </div>
+                                <div class="header__sportsmen">
+                                    Игрок
+                                </div>
+                                <div class="header__cost">
+                                    Стоимость
+                                </div>
+                                <div class="header__shift">
+                                    Переход
+                                </div>
+                            </div>
+                            <div class="header__rating">
+                                <div class="header__player">
+                                    <div class="header__place">1</div>
+                                    <img src="../images/expensive_player5.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Jude Bellingham
+                                        </div>
+                                        <div class="header__position">
+                                            Центр. полузащитник
+                                        </div>
+                                    </div>
+                                    <div class="header__value header__value_first">
+                                        120,00 млн €
+                                    </div>
+                                    <div class="header__change header__change_first">
+                                        <img src="../images/last_image6.png" alt="" class="header__club">
+                                    </div>
+                                </div>
+                                <div class="header__player">
+                                    <div class="header__place">2</div>
+                                    <img src="../images/top_transfer2.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Declan Rice
+                                        </div>
+                                        <div class="header__position">
+                                            Опорный полузащитник
+                                        </div>
+                                    </div>
+                                    <div class="header__value">
+                                        90,00 млн €
+                                    </div>
+                                    <div class="header__change">
+                                        <img src="../images/icon1.png" alt="" class="header__club scale_small">
+                                    </div>
+                                </div>
+                                <div class="header__player">
+                                    <div class="header__place">3</div>
+                                    <img src="../images/top_transfer3.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Harry Kane
+                                        </div>
+                                        <div class="header__position">
+                                            Центральный нап.
+                                        </div>
+                                    </div>
+                                    <div class="header__value">
+                                        90,00 млн €
+                                    </div>
+                                    <div class="header__change">
+                                        <img src="../images/icon5.png" alt="" class="header__club scale_small"> 
+                                    </div>
+                                </div>
+                                <div class="header__player">
+                                    <div class="header__place">4</div>
+                                    <img src="../images/top_transfer4.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Randal Kolo Muani
+                                        </div>
+                                        <div class="header__position">
+                                            Центральный нап.
+                                        </div>
+                                    </div>
+                                    <div class="header__value">
+                                        80,00 млн €
+                                    </div>
+                                    <div class="header__change">
+                                        <img src="../images/icon7.png" alt="" class="header__club scale_small">
+                                    </div>
+                                </div>
+                                <div class="header__player">
+                                    <div class="header__place">5</div>
+                                    <img src="../images/top_transfer5.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Christopher Nkunku
+                                        </div>
+                                        <div class="header__position">
+                                            Атак. полузащитник
+                                        </div>
+                                    </div>
+                                    <div class="header__value">
+                                        80,00 млн €
+                                    </div>
+                                    <div class="header__change">
+                                        <img src="../images/uefa_image28.png" alt="" class="header__club scale_small">
+                                    </div>
+                                </div>
+                                <div class="header__player">
+                                    <div class="header__place">6</div>
+                                    <img src="../images/top_transfer6.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Moisés Caicedo
+                                        </div>
+                                        <div class="header__position">
+                                            Опорный полузащитник
+                                        </div>
+                                    </div>
+                                    <div class="header__value">
+                                        75,00 млн €
+                                    </div>
+                                    <div class="header__change">
+                                        <img src="../images/icon6.png" alt="" class="header__club scale_small">
+                                    </div>
+                                </div>
+                                <div class="header__player">
+                                    <div class="header__place">7</div>
+                                    <img src="../images/top_transfer7.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Josko Gvardiol
+                                        </div>
+                                        <div class="header__position">
+                                            Центр. защитник
+                                        </div>
+                                    </div>
+                                    <div class="header__value">
+                                        75,00 млн €
+                                    </div>
+                                    <div class="header__change">
+                                        <img src="../images/icon8.png" alt="" class="header__club scale_small">
+                                    </div>
+                                </div>
+                                <div class="header__player">
+                                    <div class="header__place">8</div>
+                                    <img src="../images/top_transfer8.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Alexis Mac Allister
+                                        </div>
+                                        <div class="header__position">
+                                            Центр. полузащитник
+                                        </div>
+                                    </div>
+                                    <div class="header__value">
+                                        65,00 млн €
+                                    </div>
+                                    <div class="header__change">
+                                        <img src="../images/icon6.png" alt="" class="header__club scale_small">
+                                    </div>
+                                </div>
+                                <div class="header__player">
+                                    <div class="header__place">9</div>
+                                    <img src="../images/top_transfer9.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Neymar
+                                        </div>
+                                        <div class="header__position">
+                                            Левый Вингер
+                                        </div>
+                                    </div>
+                                    <div class="header__value">
+                                        60,00 млн €
+                                    </div>
+                                    <div class="header__change">
+                                        <img src="../images/uefa_image28.png" alt="" class="header__club scale_small">
+                                    </div>
+                                </div>
+                                <div class="header__player">
+                                    <div class="header__place">10</div>
+                                    <img src="../images/top_transfer10.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Mason Mount
+                                        </div>
+                                        <div class="header__position">
+                                            Атак. полузащитник
+                                        </div>
+                                    </div>
+                                    <div class="header__value">
+                                        60,00 млн €
+                                    </div>
+                                    <div class="header__change">
+                                        <img src="../images/chelsy.png" alt="" class="header__club">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__price">
+                            <a href="rating.html" class="header__link" id="link_rating">Рейтинги</a>
+                        </div>
+                        <div class="header__dropdown_transfer" id="dropdown_rating">
+                            <div class="header__extra">Рейтинги</div>   
+                            <div class="header__new">
+                                <a href="#"><img src="../images/right_arrow.png" alt="" class="header__arrow">Лучшие новости</a>
+                                <a href="#"><img src="../images/right_arrow.png" alt="" class="header__arrow">Лучшие бомбардиры</a>
+                                <a href="#"><img src="../images/right_arrow.png" alt="" class="header__arrow">Лучшие ассистенты</a>
+                                <a href="#"><img src="../images/right_arrow.png" alt="" class="header__arrow">Самый красивый гол</a>
+                                <a href="#"><img src="../images/right_arrow.png" alt="" class="header__arrow">Самая красивая передача</a>
+                                <a href="#"><img src="../images/right_arrow.png" alt="" class="header__arrow">Топ лучших команд</a>
+                                <a href="#"><img src="../images/right_arrow.png" alt="" class="header__arrow">Топ дорогих игроков</a>
+                                <a href="#"><img src="../images/right_arrow.png" alt="" class="header__arrow">Самые лучшие трансферы</a>
+                                <a href="#"><img src="../images/right_arrow.png" alt="" class="header__arrow">Топ интересных слухов</a>
+                                <a href="#"><img src="../images/right_arrow.png" alt="" class="header__arrow">Лучшие интервью</a>
+                            </div>                         
+                        </div>
+
+                        <div class="header__price">
+                            <a href="rumor.html" class="header__link" id="link_rumor">Слухи</a>
+                        </div>
+                        <div class="header__dropdown_transfer" id="dropdown_rumor">
+                            <div href="#" class="header__extra">Список слухов</div>
+                            <div class="header__parameter">
+                                <div class="header__number">
+                                    #
+                                </div>
+                                <div class="header__sportsmen">
+                                    Игрок
+                                </div>
+                                <div class="header__cost header__cost_2">
+                                    Примерная стоимость
+                                </div>
+                                <div class="header__shift header__shift_2">
+                                    Возможный переход
+                                </div>
+                            </div>
+                            <div class="header__rating">
+                                <div class="header__player">
+                                    <div class="header__place">1</div>
+                                    <img src="../images/probably_transfer1.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Sadio Mané
+                                        </div>
+                                        <div class="header__position">
+                                            Центральный нап.
+                                        </div>
+                                    </div>
+                                    <div class="header__value header__value_first">
+                                        25,00 млн €
+                                    </div>
+                                    <div class="header__change header__change_first">
+                                        <img src="../images/from_club.png" alt="" class="header__club header__club_wide"> <img src="../images/pointer.png" alt="" class="header__pointer"> <img src="../images/to_club.png" alt="" class="header__club header__club_wide_1">
+                                    </div>
+                                </div>
+                                <div class="header__player">
+                                    <div class="header__place">2</div>
+                                    <img src="../images/probably_transfer2.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Pedro
+                                        </div>
+                                        <div class="header__position">
+                                            Центральный нап.
+                                        </div>
+                                    </div>
+                                    <div class="header__value">
+                                        22,00 млн €
+                                    </div>
+                                    <div class="header__change">
+                                        <img src="../images/from_club1.png" alt="" class="header__club scale_small"> <img src="../images/pointer.png" alt="" class="header__pointer"> <img src="../images/to_club1.png" alt="" class="header__club">
+                                    </div>
+                                </div>
+                                <div class="header__player">
+                                    <div class="header__place">3</div>
+                                    <img src="../images/probably_transfer3.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Demarai Gray
+                                        </div>
+                                        <div class="header__position">
+                                            Опорный защитник
+                                        </div>
+                                    </div>
+                                    <div class="header__value">
+                                        20,00 млн €
+                                    </div>
+                                    <div class="header__change">
+                                        <img src="../images/from_club2.png" alt="" class="header__club scale_small"> <img src="../images/pointer.png" alt="" class="header__pointer"> <img src="../images/to_club2.png" alt="" class="header__club scale">
+                                    </div>
+                                </div>
+                                <div class="header__player">
+                                    <div class="header__place">4</div>
+                                    <img src="../images/probably_transfer4.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Arsen Zakharyan
+                                        </div>
+                                        <div class="header__position">
+                                            Центральный нап.
+                                        </div>
+                                    </div>
+                                    <div class="header__value">
+                                        15,00 млн €
+                                    </div>
+                                    <div class="header__change">
+                                        <img src="../images/from_club3.png" alt="" class="header__club scale_small"> <img src="../images/pointer.png" alt="" class="header__pointer"> <img src="../images/to_club3.png" alt="" class="header__club scale">
+                                    </div>
+                                </div>
+                                <div class="header__player">
+                                    <div class="header__place">5</div>
+                                    <img src="../images/probably_transfer5.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Sardar Azmoun
+                                        </div>
+                                        <div class="header__position">
+                                            Атак. полузащитник
+                                        </div>
+                                    </div>
+                                    <div class="header__value">
+                                        12,00 млн €
+                                    </div>
+                                    <div class="header__change">
+                                        <img src="../images/from_club4.png" alt="" class="header__club scale_small"> <img src="../images/pointer.png" alt="" class="header__pointer"> <img src="../images/to_club4.png" alt="" class="header__club scale">
+                                    </div>
+                                </div>
+                                <div class="header__player">
+                                    <div class="header__place">6</div>
+                                    <img src="../images/probably_transfer6.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Robert Renan
+                                        </div>
+                                        <div class="header__position">
+                                            Опорный полузащитник
+                                        </div>
+                                    </div>
+                                    <div class="header__value">
+                                        9,00 млн €
+                                    </div>
+                                    <div class="header__change">
+                                        <img src="../images/from_club5.png" alt="" class="header__club scale_small"> <img src="../images/pointer.png" alt="" class="header__pointer"> <img src="../images/to_club5.png" alt="" class="header__club scale">
+                                    </div>
+                                </div>
+                                <div class="header__player">
+                                    <div class="header__place">7</div>
+                                    <img src="../images/probably_transfer7.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Luis Chávez
+                                        </div>
+                                        <div class="header__position">
+                                            Центр. защитник
+                                        </div>
+                                    </div>
+                                    <div class="header__value">
+                                        8,00 млн €
+                                    </div>
+                                    <div class="header__change">
+                                        <img src="../images/from_club6.png" alt="" class="header__club scale_small"> <img src="../images/pointer.png" alt="" class="header__pointer"> <img src="../images/to_club6.png" alt="" class="header__club scale">
+                                    </div>
+                                </div>
+                                <div class="header__player">
+                                    <div class="header__place">8</div>
+                                    <img src="../images/probably_transfer8.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Pedro
+                                        </div>
+                                        <div class="header__position">
+                                            Центр. полузащитник
+                                        </div>
+                                    </div>
+                                    <div class="header__value">
+                                        7,00 млн €
+                                    </div>
+                                    <div class="header__change">
+                                        <img src="../images/from_club7.png" alt="" class="header__club scale_small"> <img src="../images/pointer.png" alt="" class="header__pointer"> <img src="../images/to_club7.png" alt="" class="header__club scale">
+                                    </div>
+                                </div>
+                                <div class="header__player">
+                                    <div class="header__place">9</div>
+                                    <img src="../images/probably_transfer9.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Chidera Ejuke
+                                        </div>
+                                        <div class="header__position">
+                                            Левый Вингер
+                                        </div>
+                                    </div>
+                                    <div class="header__value">
+                                        5,50 млн €
+                                    </div>
+                                    <div class="header__change">
+                                        <img src="../images/from_club8.png" alt="" class="header__club scale_small"> <img src="../images/pointer.png" alt="" class="header__pointer"> <img src="../images/to_club8.png" alt="" class="header__club scale">
+                                    </div>
+                                </div>
+                                <div class="header__player">
+                                    <div class="header__place">10</div>
+                                    <img src="../images/probably_transfer10.webp" alt="" class="header__thumbnail">
+                                    <div class="header__data">
+                                        <div class="header__name">
+                                            Nuraly Alip
+                                        </div>
+                                        <div class="header__position">
+                                            Атак. полузащитник
+                                        </div>
+                                    </div>
+                                    <div class="header__value">
+                                        2,00 млн €
+                                    </div>
+                                    <div class="header__change">
+                                        <img src="../images/from_club9.png" alt="" class="header__club"> <img src="../images/pointer.png" alt="" class="header__pointer"> <img src="../images/to_club9.png" alt="" class="header__club scale">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__tour">
+                            <a href="#" class="header__link" id="link">Команды</a>
+                        </div>
+                        <div class="header__dropdown" id="dropdown">
+                            <div href="#" class="header__extra">Список команд</div>
+                            <div class="header__team">
+                            <ul class="header__list">
+                                <li><a href="twodrots.html" class="header__point"><img src="../images/team1.png" alt="" class="header__thumb"></a></li>
+                                <li><a href="broke.html" class="header__point"><img src="../images/team2.png" alt="" class="header__thumb"></a></li>
+                                <li><a href="ars.html" class="header__point"><img src="../images/team3.png" alt="" class="header__thumb"></a></li>
+                                <li><a href="bus.html" class="header__point"><img src="../images/team4.png" alt="" class="header__thumb"></a></li>
+                            </ul>
+                            <ul class="header__list">
+                                <li><a href="dmedia.html" class="header__point"><img src="../images/team5.png" alt="" class="header__thumb"></a></li>
+                                <li><a href="night.html" class="header__point"><img src="../images/team6.png" alt="" class="header__thumb"></a></li>
+                                <li><a href="kickstown.html" class="header__point"><img src="../images/team7.png" alt="" class="header__thumb"></a></li>
+                                <li><a href="otake.html" class="header__point"><img src="../images/team8.png" alt="" class="header__thumb"></a></li>
+                            </ul>
+                            <ul class="header__list">
+                                <li><a href="amkal.html" class="header__point"><img src="../images/team9.png" alt="" class="header__thumb"></a></li>
+                                <li><a href="begi.html" class="header__point"><img src="../images/team10.png" alt="" class="header__thumb"></a></li>
+                                <li><a href="druzhina.html" class="header__point"><img src="../images/team11.png" alt="" class="header__thumb"></a></li>
+                                <li><a href="goat.html" class="header__point"><img src="../images/team12.png" alt="" class="header__thumb"></a></li>
+                            </ul>
+                            <ul class="header__list">
+                                <li><a href="narod.html" class="header__point"><img src="../images/team13.png" alt="" class="header__thumb"></a></li>
+                                <li><a href="delo.html" class="header__point"><img src="../images/team14.png" alt="" class="header__thumb"></a></li>
+                                <li><a href="rodina.html" class="header__point"><img src="../images/team15.png" alt="" class="header__thumb"></a></li>
+                                <li><a href="sahalin.html" class="header__point"><img src="../images/team16.png" alt="" class="header__thumb"></a></li>
+                            </ul>
+                            <ul class="header__list">
+                                <li><a href="titan.html" class="header__point"><img src="../images/team17.png" alt="" class="header__thumb"></a></li>
+                                <li><a href="fk10.html" class="header__point"><img src="../images/team18.png" alt="" class="header__thumb"></a></li>
+                                <li><a href="starmix.html" class="header__point"><img src="../images/team19.png" alt="" class="header__thumb"></a></li>
+                                <li><a href="money.html" class="header__point"><img src="../images/team20.png" alt="" class="header__thumb"></a></li>
+                            </ul>
+                            <ul class="header__list">
+                                <li><a href="match.html" class="header__point"><img src="../images/team21.png" alt="" class="header__thumb"></a></li>
+                                <li><a href="uralec.html" class="header__point"><img src="../images/team22.png" alt="" class="header__thumb"></a></li>
+                                <li><a href="piter.html" class="header__point"><img src="../images/team23.png" alt="" class="header__thumb"></a></li>
+                                <li><a href="egrici.html" class="header__point"><img src="../images/team24.png" alt="" class="header__thumb"></a></li>
+                            </ul>
+                        </div>
+                        </div>
+                        <div class="header__tour">
+                            <a href="interview.html" class="header__link" id="link_interview">Интервью</a>
+                            <div class="header__dropdown_transfer" id="dropdown_interview">
+                                <div href="#" class="header__extra">Интервью</div>         
+                                <div class="header__video">
+                                    <div class="header__interview">
+                                        <video width="400" height="200" controls="controls">
+                                            <source src="../images/video1.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                                            <source src="../images/video1.mp4" type='video/webm; codecs="vp8, vorbis"'>
+                                        </video>
+                                        <div class="header__text">
+                                            <div class="header__main">Интервью президента клуба «Зенит»</div>
+                                            <div class="header__description">Эксклюзивное интервью президента клуба «Зенит» о заменах в команде</div>
+                                            <a href="https://www.championat.com/" class="header__source">Источник: www.championat</a>
+                                        </div>
+                                    </div>
+                                    <div class="header__interview">
+                                        <video width="400" height="200" controls="controls">
+                                            <source src="../images/video2.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                                            <source src="../images/video2.mp4" type='video/webm; codecs="vp8, vorbis"'>
+                                        </video>
+                                        <div class="header__text">
+                                            <div class="header__main">Интервью главного тренера «Амкал»</div>
+                                            <div class="header__description">Интервью тренера «Амкал»</div>
+                                            <a href="https://www.championat.com/" class="header__source">Источник: www.championat</a>
+                                        </div>
+                                    </div>
+                                    <div class="header__interview">
+                                        <video width="400" height="200" controls="controls">
+                                            <source src="../images/video3.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                                            <source src="../images/video3.mp4" type='video/webm; codecs="vp8, vorbis"'>
+                                        </video>
+                                        <div class="header__text">
+                                            <div class="header__main">Интервью тренера «Рубин»</div>
+                                            <div class="header__description">В Москве состоялось долгожданное интервью тренера Рубина</div>
+                                            <a href="https://www.championat.com/" class="header__source">Источник: www.championat</a>
+                                        </div>
+                                    </div>
+                                </div>                   
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <section class="team">
+                    <div class="team__container">
+                        <div class="team__block">
+                            <div class="team__name">
+                                ФК УРАЛЕЦ МЕДИА
+                            </div>
+                            <div class="team__social">
+                                <a href="#" class="team__link"><img src="../images/youtube.png" alt="" class="team__network"></a>
+                                <a href="#" class="team__link"><img src="../images/telegram.png" alt="" class="team__network"></a>
+                                <a href="#" class="team__link"><img src="../images/vkontact.png" alt="" class="team__network"></a>
+                            </div>
+                            <div class="team__emblem">
+                                <img src="../images/image_uralec.png" alt="">
+                            </div>
+                        </div>
+                        <div class="team__stat">
+                            <div class="team__label">
+                                СТАТИСТИКА ЗА ВСЕ СЕЗОНЫ
+                            </div>
+                            <div class="team__grid">
+                                <div class="team__parametr">
+                                    <span class="team__value">
+                                        7
+                                    </span>
+                                    <div class="team__text">
+                                        Матчей
+                                    </div>
+                                </div>
+                                <div class="team__parametr">
+                                    <span class="team__value">
+                                        4
+                                    </span>
+                                    <div class="team__text">
+                                        Побед
+                                    </div>
+                                </div>
+                                <div class="team__parametr">
+                                    <span class="team__value">
+                                        1
+                                    </span>
+                                    <div class="team__text">
+                                        Ничьи
+                                    </div>
+                                </div>
+                                <div class="team__parametr team__parametr_lose">
+                                    <span class="team__value">
+                                        2
+                                    </span>
+                                    <div class="team__text">
+                                        Поражений
+                                    </div>
+                                </div>
+                                <div class="team__parametr">
+                                    <span class="team__value">
+                                        8 – 8
+                                    </span>
+                                    <div class="team__text">
+                                        Голов
+                                    </div>
+                                </div>
+                                <div class="team__parametr">
+                                    <span class="team__value">
+                                        9 / 0
+                                    </span>
+                                    <div class="team__text">
+                                        ЖК / КК
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__table">
+                            <div class="team__label">
+                                СОСТАВ И СТАТИСТИКА В СЕЗОНЕ
+                            </div>
+                            <div class="team__data">
+                                <div class="team__indication">
+                                    <div class="team__metric">
+                                        Имя
+                                    </div>
+                                    <div class="team__metric alias">
+                                        Псевдоним
+                                    </div>
+                                    <div class="team__metric position">
+                                        Позиция
+                                    </div>
+                                    <div class="team__metric match">
+                                        Стоимость
+                                    </div>
+                                </div>
+                                <div class="team__information">
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            ОРЛОВ СЕРГЕЙ
+                                        </div>
+                                        <div class="team__position">
+                                            ОРЕЛ
+                                        </div>
+                                        <div class="team__match">
+                                            Нападающий
+                                        </div>
+                                        <div class="team__goal">
+                                            120.000 ₽
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            ЗЕНЬКОВИЧ ИГОРЬ
+                                        </div>
+                                        <div class="team__position">
+                                            ZENYA
+                                        </div>
+                                        <div class="team__match">
+                                            Нападающий
+                                        </div>
+                                        <div class="team__goal">
+                                            65.000 ₽
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            ИМЕДАДЗЕ ДЕНИС
+                                        </div>
+                                        <div class="team__position">
+                                            SNOOPDEN
+                                        </div>
+                                        <div class="team__match">
+                                            Нападающий
+                                        </div>
+                                        <div class="team__goal">
+                                            62.000 ₽
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            ФАТИХОВ АЛМАЗ
+                                        </div>
+                                        <div class="team__position">
+                                            ФАТИХ
+                                        </div>
+                                        <div class="team__match">
+                                            Полузащитник
+                                        </div>
+                                        <div class="team__goal">
+                                            53.000 ₽
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            ХАЙРУЛЛИН МАРАТ
+                                        </div>
+                                        <div class="team__position">
+                                            MARA
+                                        </div>
+                                        <div class="team__match">
+                                            Полузащитник
+                                        </div>
+                                        <div class="team__goal">
+                                            45.000 ₽
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            CAIRESDE SOUZA GUSTAVO
+                                        </div>
+                                        <div class="team__position">
+                                            ЭЛ
+                                        </div>
+                                        <div class="team__match">
+                                            Полузащитник
+                                        </div>
+                                        <div class="team__goal">
+                                            40.000 ₽
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            САЛАХОВ ЭЛЬХАН
+                                        </div>
+                                        <div class="team__position">
+                                            SHAMAZVANEC
+                                        </div>
+                                        <div class="team__match">
+                                            Полузащитник
+                                        </div>
+                                        <div class="team__goal">
+                                            36.000 ₽
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            СКОРЫХ СЕРГЕЙ
+                                        </div>
+                                        <div class="team__position">
+                                            ШАЛ
+                                        </div>
+                                        <div class="team__match">
+                                            Защитник
+                                        </div>
+                                        <div class="team__goal">
+                                            36.000 ₽  
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            КАШАКАШВИЛИ ГИОРГИЙ
+                                        </div>
+                                        <div class="team__position">
+                                            KSKSHVL
+                                        </div>
+                                        <div class="team__match">
+                                            Вратарь
+                                        </div>
+                                        <div class="team__goal">
+                                            50.000 ₽
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            ФАТТАХОВ ДМИТРИЙ
+                                        </div>
+                                        <div class="team__position">
+                                            ФАТЯ
+                                        </div>
+                                        <div class="team__match">
+                                            Защитник
+                                        </div>
+                                        <div class="team__goal">
+                                            25.000 ₽
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            ГУРКИН АЛЕКСЕЙ
+                                        </div>
+                                        <div class="team__position">
+                                            GURKIN
+                                        </div>
+                                        <div class="team__match">
+                                            Защитник
+                                        </div>
+                                        <div class="team__goal">
+                                            22.000 ₽
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            БЫКОВ РОМАН
+                                        </div>
+                                        <div class="team__position">
+                                            BULL
+                                        </div>
+                                        <div class="team__match">
+                                            Защитник
+                                        </div>
+                                        <div class="team__goal">
+                                            22.000 ₽ 
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            ИБРАГИМОВ АЛИБЕК
+                                        </div>
+                                        <div class="team__position">
+                                            ALI.IBRGMV
+                                        </div>
+                                        <div class="team__match">
+                                            Защитник
+                                        </div>
+                                        <div class="team__goal">
+                                            22.000 ₽
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            DA SILVA VINICIUS ALMEIDA
+                                        </div>
+                                        <div class="team__position">
+                                            MELEQUINHA
+                                        </div>
+                                        <div class="team__match">
+                                            Полузащитник
+                                        </div>
+                                        <div class="team__goal">
+                                            21.000 ₽
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            ХАРТИЯДИ ПАНАЙОТ
+                                        </div>
+                                        <div class="team__position">
+                                            ПАНТИК
+                                        </div>
+                                        <div class="team__match">
+                                            Полузащитник
+                                        </div>
+                                        <div class="team__goal">
+                                            21.000 ₽
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            SOUZA PEPE
+                                        </div>
+                                        <div class="team__position">
+                                            PEPINHO
+                                        </div>
+                                        <div class="team__match">
+                                            Нападающий
+                                        </div>
+                                        <div class="team__goal">
+                                            23.000 ₽
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            СИДИКОВ АЛЕКСЕЙ
+                                        </div>
+                                        <div class="team__position">
+                                            SIDOY
+                                        </div>
+                                        <div class="team__match">
+                                            Нападающий
+                                        </div>
+                                        <div class="team__goal">
+                                            27.000 ₽
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            КРЕСТИН НИКИТА
+                                        </div>
+                                        <div class="team__position">
+                                            KREST
+                                        </div>
+                                        <div class="team__match">
+                                            Полузащитник
+                                        </div>
+                                        <div class="team__goal">
+                                            30000 €
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            БИРЮКОВ КИРИЛЛ
+                                        </div>
+                                        <div class="team__position">
+                                            BIRYA
+                                        </div>
+                                        <div class="team__match">
+                                            Полузащитник
+                                        </div>
+                                        <div class="team__goal">
+                                           450.000 ₽
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            ТАВУЗЯН АРТУР
+                                        </div>
+                                        <div class="team__position">
+                                            TAVUZIAN
+                                        </div>
+                                        <div class="team__match">
+                                            Полузащитник
+                                        </div>
+                                        <div class="team__goal">
+                                            40000 €
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            ШЕСТАКОВ КИРИЛЛ
+                                        </div>
+                                        <div class="team__position">
+                                            OLD MAN
+                                        </div>
+                                        <div class="team__match">
+                                            Полузащитник
+                                        </div>
+                                        <div class="team__goal">
+                                            30000 €
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            ЛАЗОВСКАЯ СОФЬЯ
+                                        </div>
+                                        <div class="team__position">
+                                            SOFI
+                                        </div>
+                                        <div class="team__match">
+                                            Полузащитник
+                                        </div>
+                                        <div class="team__goal">
+                                            30000 €
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            ШАХБАНОВ ГАМИД
+                                        </div>
+                                        <div class="team__position">
+                                            GAMA
+                                        </div>
+                                        <div class="team__match">
+                                            Полузащитник
+                                        </div>
+                                        <div class="team__goal">
+                                            35.000 ₽
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            СКОРОПУПОВ ИЛЬЯ
+                                        </div>
+                                        <div class="team__position">
+                                            SKOROPUPOV
+                                        </div>
+                                        <div class="team__match">
+                                            Полузащитник
+                                        </div>
+                                        <div class="team__goal">
+                                            40.000 ₽  
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            СКОРЫХ СЕРГЕЙ
+                                        </div>
+                                        <div class="team__position">
+                                            ШАЛ
+                                        </div>
+                                        <div class="team__match">
+                                            Защитник
+                                        </div>
+                                        <div class="team__goal">
+                                            40.000 ₽  
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            ВАСИЛЬЕВ МАКСИМ
+                                        </div>
+                                        <div class="team__position">
+                                            VASILLA
+                                        </div>
+                                        <div class="team__match">
+                                            Полузащитник
+                                        </div>
+                                        <div class="team__goal">
+                                            25000 €
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            ЗУЕВ АРТЕМ
+                                        </div>
+                                        <div class="team__position">
+                                            ZUZU
+                                        </div>
+                                        <div class="team__match">
+                                            Полузащитник
+                                        </div>
+                                        <div class="team__goal">
+                                            30000 €
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            ШЕСТАКОВ ИГОРЬ
+                                        </div>
+                                        <div class="team__position">
+                                            SHEST
+                                        </div>
+                                        <div class="team__match">
+                                            Полузащитник
+                                        </div>
+                                        <div class="team__goal">
+                                            40000 €
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            КАШАЕВ НИКИТА
+                                        </div>
+                                        <div class="team__position">
+                                            KASHAI
+                                        </div>
+                                        <div class="team__match">
+                                            Полузащитник
+                                        </div>
+                                        <div class="team__goal">
+                                            45000 €
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            АЛТУНИН АНТОН
+                                        </div>
+                                        <div class="team__position">
+                                            ALTUNIN
+                                        </div>
+                                        <div class="team__match">
+                                            Полузащитник
+                                        </div>
+                                        <div class="team__goal">
+                                            45.000 ₽
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            КАШИН ДАНИИЛ
+                                        </div>
+                                        <div class="team__position">
+                                            KASHA
+                                        </div>
+                                        <div class="team__match">
+                                            Полузащитник
+                                        </div>
+                                        <div class="team__goal">
+                                            45000 €
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            МАВРИН ВАСИЛИЙ
+                                        </div>
+                                        <div class="team__position">
+                                            MAVRIN
+                                        </div>
+                                        <div class="team__match">
+                                            Полузащитник
+                                        </div>
+                                        <div class="team__goal">
+                                            220.000 ₽
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            КИСЕЛЕВ АЛЕКСЕЙ
+                                        </div>
+                                        <div class="team__position">
+                                            KISELEV
+                                        </div>
+                                        <div class="team__match">
+                                            Полузащитник
+                                        </div>
+                                        <div class="team__goal">
+                                            25.000 ₽
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            АЛУМОНА АЛЕКСАНДР
+                                        </div>
+                                        <div class="team__position">
+                                            АЛУМОНА
+                                        </div>
+                                        <div class="team__match">
+                                            Нападающий
+                                        </div>
+                                        <div class="team__goal">
+                                            40000 €
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            МАРУТЯН ЭДГАР
+                                        </div>
+                                        <div class="team__position">
+                                            IMPERA
+                                        </div>
+                                        <div class="team__match">
+                                            Нападающий
+                                        </div>
+                                        <div class="team__goal">
+                                            40000 €
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            ДВОРНИКОВ ФЁДОР
+                                        </div>
+                                        <div class="team__position">
+                                            DVOR
+                                        </div>
+                                        <div class="team__match">
+                                            Нападающий
+                                        </div>
+                                        <div class="team__goal">
+                                            40.000 ₽
+                                        </div>
+                                    </div>
+                                    <div class="team__line">
+                                        <div class="team__player team__player_bigger">
+                                            ВАГИДОВ АРСЕН
+                                        </div>
+                                        <div class="team__position">
+                                            VAGA
+                                        </div>
+                                        <div class="team__match">
+                                            Нападающий
+                                        </div>
+                                        <div class="team__goal">
+                                            50000 €
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__flex">
+                    <div class="footer__logo">
+                        <img src="../images/logo_right.png" alt="logo" class="header__icon header__icon_small">
+                    </div>
+                    <div class="footer__links">
+                        <a href="#" class="footer__link">О проекте</a> <span class="footer__dash">|</span>
+                        <a href="#" class="footer__link">Обеспечение защиты данных</a> <span class="footer__dash">|</span>
+                        <a href="#" class="footer__link">Конфедициальность</a> <span class="footer__dash">|</span>
+                        <a href="#" class="footer__link">Условия пользования</a> <span class="footer__dash">|</span>
+                        <a href="#" class="footer__link">Сообщить об ошибке</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
